@@ -9,6 +9,7 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
+  "SELECT avg(gpa) as average_student_gpa FROM students;"
 
 end
 
