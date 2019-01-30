@@ -14,7 +14,7 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "SELECT sum(tardies) as lowest_student_gpa FROM students;"
+  "SELECT sum(tardies) as total_tardies_for_all_students FROM students;"
 
 end
 
